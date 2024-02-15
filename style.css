@@ -1,0 +1,120 @@
+body {
+    background-color: grey;
+    padding: 0;  
+    margin: 0;
+
+}
+
+.buttons {
+color: black;
+
+
+}
+
+button {
+margin-right: 2%;
+font-size: 14px;
+}
+
+.group1 {
+    margin: 0% ;
+    
+}
+
+#water {
+    padding: 3%;
+
+    background-color: aqua;
+    position: absolute;
+    right: 35%;
+    left: 35%;
+    bottom: 0%;
+    transition: padding-top 0.5s ease;
+
+}
+
+#water_right {
+    padding: 5%;
+
+    background-color: aqua;
+    position: absolute;
+
+    left: 0%;    
+    bottom: 0%;
+    padding-left: 30%;
+    padding-top: 15%;
+
+}
+
+#water_left {
+    padding: 3%;
+    padding-left: 32%;
+
+    background-color: aqua;
+    position: absolute;
+    right: 0%;    
+    bottom: 0%;
+
+
+}
+
+#light_1{
+    position: absolute;
+    padding: 3%;
+    background-color: #555054;
+    left: 15%;
+    top: 10%;
+    border-radius: 100%;
+    transition: background-color 1s cubic-bezier(1, 1, 1, 1);
+
+}
+
+#light_2{
+    position: absolute;
+    padding: 3%;
+    background-color: #555054;
+    right: 15%;
+    top: 10%;
+    border-radius: 100%;
+    transition: background-color 1s cubic-bezier(1, 1, 1, 1);
+}
+
+#gate_1{
+    position: absolute;
+    background-color: black;
+    left: 33%;
+    bottom: 0;
+    padding: 1%;
+    padding-top: 22%;
+    transition: bottom 2s linear 0s
+
+
+}
+
+#gate_2{
+    position: absolute;
+    background-color: black;
+    right: 33%;
+    bottom: 0;
+    padding: 1%;
+    padding-top: 22%;
+    transition: bottom 2s linear 0s;
+
+
+}
+
+#boatPart_1 {
+    position: absolute;
+    bottom: 34%;
+    width: 150px;
+    height: 50px;
+    background: red;
+    transform: perspective(10px) rotateX(5deg);
+    margin: 50px;
+    rotate:  180deg;
+    z-index: -1;
+    transition: left 0.5s ease 2s;
+    transition: bottom 0.5s ease;
+  }
+
+
